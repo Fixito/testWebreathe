@@ -17,7 +17,8 @@ Les technologies de programmation utilisées sont HTML / CSS / PHP / Bootstrap /
 
 ## Installation
 
-Les tables de la BDD se trouve dans le dossier database
+Les tables de la BDD se trouve dans le dossier database.
+Les identifiants à remplacer par les vôtres pour se connecter à la BDD se trouve dans src/connect.php.
 
 ## Simulation
 
