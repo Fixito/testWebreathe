@@ -10,8 +10,6 @@ function arraySelect(id, data) {
   let option;
   let html = "";
 
-  console.log(data);
-
   html += `<h3>${data["name"].toUpperCase()}</h3><ul>`;
   for (let i = 0; i < selects[id].options.length; i++) {
     if (selects[id].options[i].selected === true) {

@@ -34,8 +34,8 @@ class Form
   public function select($columns, $name, $label, $idSelect)
   {
     return $this->surround('
-      <label for="' . $name . '">' . $label . '</label>
-      <select class="form-select" multiple aria-label="multiple select example" name="infoModule' . $idSelect . '[] id=' . $idSelect . '">
+      <label for="' . $idSelect . '">' . $label . '</label>
+      <select class="form-select" multiple aria-label="multiple select example" name="infoModule' . $idSelect . '[]" id="' . $name . $idSelect . '">
         <option value="' . $columns[5] . '">Température</option>
         <option value="' . $columns[6] . '">Durée de fonctionnement</option>
         <option value="' . $columns[7] . '">Nombre de données envoyées</option>
